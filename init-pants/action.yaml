@@ -79,6 +79,11 @@ inputs:
       See https://cli.github.com/manual/gh_help_environment.
     required: false
     default: "github.com"
+  pants-python-version:  
+    description: |
+      Which version of python to install, specifically for pants. Defaults to `'3.9'`.
+    required: false
+    default: '3.9'
 
 runs:
   using: "composite"
